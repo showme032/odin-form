@@ -1,0 +1,54 @@
+@font-face {
+  font-family: norse-bold;  /* name to call when used */
+  src: url(./resources/Norse-Bold.otf);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  margin: 0;
+  background-color: #A8AAA8;
+}
+
+div.showcase {
+  height: 100vh;
+  width: 35vw;
+  background: url(./resources/peak.jpg);
+  background-size: cover;
+  position: relative;
+}
+div.logo-background {
+  width: 100%;
+  height: 20vh;
+  position: relative;
+  top: 22vh;
+  background-color: #000;
+  opacity: 0.3;
+  overflow: hidden;
+  padding-left: 70px;
+
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+img.odin-logo {
+  margin-right: 7%;
+  height: 15vh;
+}
+img.odin-logo + p {
+  margin: 0;
+  color: #fff;
+  font-size: 12vh;
+  font-family: norse-bold;
+}
+p.img-credits {
+  position: absolute;
+  text-align: center;
+  bottom: 15px;
+  right: 15px;
+  opacity: 0.8;
+  margin: 0;
+  font-size: small;
+  color: #EFF1EE;
+}
