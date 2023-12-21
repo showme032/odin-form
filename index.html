@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Form</title>
+  <title>Odin's Form</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -19,7 +19,52 @@
       <p>This is not a real online service. But you can nevertheless sign up for it in just a few easy steps. You shouldn't have any trouble
         during the process, so don't wait and jump right in!
       </p>
+      <p>You know you want to!</p>
     </header>
+
+    <form class="registration-form" autocomplete="off">
+      <div class="form-field">
+        <p>Just <em>do it</em>!</p>
+
+        <div class="form-row">
+          <div class="input-field">
+            <label for='first-name'>FIRST NAME</label>
+            <input type="text" name="first-name" id="first-name" required>
+          </div>
+          <div class="input-field">
+            <label for="last-name">LAST NAME</label>
+            <input type="text" name="last-name" id="last-name" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="input-field">
+            <label for='email'>EMAIL</label>
+            <input type="email" name="email" id="email" required>
+          </div>
+          <div class="input-field">
+            <label for="phone-number">PHONE NUMBER</label>
+            <input type="text" inputmode="numeric" name="phone-number" id="phone-number">          
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="input-field">
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password" required>
+          </div>
+          <div class="input-field">
+            <label for="confirm-password">CONFIRM PASSWORD</label>
+            <input type="password" name="confirm-password" id="confirm-password" required>
+          </div>
+        </div>
+      </div>
+      <div class="confirm-field">
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a href="#">Log In</a></p>
+      </div>
+    </form>
+
   </div>
 </body>
 </html>
