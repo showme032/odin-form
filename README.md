@@ -1,4 +1,5 @@
 # odin-form
 
-This is a practice webpage for implementing and styling forms.
-Per prospect, no consideration for responsive design to be given, outside ouf making sure the website doesn't completely brake at different desktop resolutions.
+A practice webpage for implementing and styling forms, per The Odin Project.
+
+live website: https://showme032.github.io/odin-form/
